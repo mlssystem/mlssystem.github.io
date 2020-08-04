@@ -75,10 +75,6 @@ a {
     color: #1D745A;
 }
  
-h1 {
- 
-}
- 
 h2 {
     font-family: 'PT Serif', serif;
     font-size: 32px;
@@ -88,9 +84,6 @@ h2 {
 }
  
 /*layout*/
- 
-.conteudo  {
-}
  
 article {
     border-bottom: 1px solid #d8d8d8;
@@ -152,7 +145,7 @@ a.menu_mobile {
 }
  
 nav li a.ativo {
-    background: #ccc;
+    background: rgb(156, 156, 156);
 }
 
 a.menu_mobile:hover,
