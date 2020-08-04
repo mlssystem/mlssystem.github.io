@@ -106,7 +106,7 @@ header {
     padding: 15px 20px;
 }
 
-/*shorter clearfix http://nicolasgallagher.com/micro-clearfix-hack/*/
+/*shorter clearfix nicolasgallagher.com/micro-clearfix-hack/*/
 header:before,
 header:after {
     content:"";
@@ -153,7 +153,7 @@ a.menu_mobile {
  
 nav li a.ativo {
     background: #ccc;
-} 
+}
 
 a.menu_mobile:hover,
 a.menu_mobile:focus {
@@ -237,7 +237,12 @@ footer {
     }
 
     #menu li.top {
-    display: none;
-}
+       display: none;
+    }
  
+    .servico .album-fotos {
+        width: 100%; 
+        margin: auto;
+    }
+}
 }
