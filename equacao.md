@@ -1,3 +1,7 @@
+# [Algoritmo](algoritmo.html)
+
+## Equação
+
 ```
 algoritmo "equacao"
 // Função :
@@ -37,3 +41,4 @@ inicio
      FimSe     
 fimalgoritmo
 ```
+[<<- voltar](index.html)
