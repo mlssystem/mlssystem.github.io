@@ -187,7 +187,63 @@ a.menu_mobile:focus {
     color: #1c1c1c;
     background: #ccc;
 }
- 
+
+.exercicio {
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+.codigo {
+    background: #f1eded;
+}
+
+.estudos {
+    background: #e7e9e7;
+} 
+.estudos a {
+    color:#2e312e;
+}
+
+.estudos h2 {
+    color:#000000;
+
+}
+.estudos ul {
+    margin-left: 6px;
+    list-style: none;
+}
+
+.estudos article {
+    border-bottom: 1px solid #b0b0b0;
+}
+.alg {
+    background: url("../img/algoritmo.png") no-repeat 95% 95%;
+}
+
+.htm {
+    background: url("../img/html.png") no-repeat 95% 95%;
+}
+
+.css {
+    background: url("../img/css.png") no-repeat 95% 95%;
+}
+
+.js {
+    background: url("../img/javascript.png") no-repeat 95% 95%;
+}    
+
+.php {
+    background: url("../img/php.png") no-repeat 95% 95%;
+}
+
+.jav {
+    background: url("../img/java.png") no-repeat 95% 95%;
+}
+
+.lin {
+    background: url("../img/linux.png") no-repeat 95% 95%;
+}
+
 /*footer*/
  
 footer {

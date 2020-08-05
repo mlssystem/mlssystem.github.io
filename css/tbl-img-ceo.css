@@ -1,0 +1,47 @@
+@charset "UTF-8";
+#tbl-img-ceo {
+    /*background-image: url("../imagens/pratah.jpg");*/ 
+    border-collapse: collapse;
+    border:1px solid #ccc;
+    border-spacing:0px;
+    border-spacing: 0px; /*usado para tirar os espaços entre as bordas dos dados*/
+    margin-left: -20px; /*usando o margin tanto para o left quanto para o right ele ficará centralizado*/
+    /*margin-right: auto;*/
+    line-height: 12px;
+}
+
+#tbl-img-ceo td {
+    border:1px solid #ccc;
+    padding:10px 10px;
+    text-align:left;
+}
+
+
+#tbl-img-ceo caption { /*configurando o títula da tabela*/
+    font-family: 'FonteLogo', sans-serif;    
+    color: #000;
+    font-size: 13pt;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#tbl-img-ceo caption span { /*configurando uma parte do título*/
+    font-family: 'FonteLogo', sans-serif;
+    display: block; /*mostrar como bloco flutuante*/
+    float: right; /*fazendo flutuar a direita*/
+    /*color: #e7cc71;*/
+    color: black;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 700px){
+    #tbl-img-ceo tbody td{
+        display: block;  
+        text-align:left;
+        float: none;
+    }
+}
+
