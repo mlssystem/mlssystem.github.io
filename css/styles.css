@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
-html, body, div, span, applet, object, iframe,
+html, body, div, /*span,*/ applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
+del, dfn, em, /*img,*/ ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i,
 dl, dt, dd, ol, ul, li,
@@ -126,6 +126,15 @@ h1.logo a {
     letter-spacing: 0.2em;
     background-image: url("projetos.png");
 }
+
+h1 {
+    text-align: center; 
+    font-weight: bold; 
+    color: #890a08; 
+    font-size: 2em; 
+    margin-bottom: 66px; 
+    margin-top: 66px;
+}
  
 a.menu_mobile {
     float: right;
@@ -201,7 +210,7 @@ a.menu_mobile:focus {
     background: #e7e9e7;
 } 
 .estudos a {
-    color:#2e312e;
+    color:#000000;
 }
 
 .estudos h2 {
@@ -293,5 +302,4 @@ footer {
         width: 100%; 
         margin: auto;
     }
-
 }
