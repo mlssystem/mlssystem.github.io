@@ -1,9 +1,12 @@
 @charset "UTF-8";
-
-html, body, div, /*span,*/ applet, object, iframe,
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../fonts/bubblegum-sans-regular.otf");
+}
+html, body, div, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, /*img,*/ ins, kbd, q, s, samp,
+del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i,
 dl, dt, dd, ol, ul, li,
@@ -76,7 +79,7 @@ a {
 }
  
 h2 {
-    font-family: 'PT Serif', serif;
+    font-family: 'FonteLogo';
     font-size: 32px;
     line-height: 1.4em;
     margin: 0 0 .4em;
@@ -128,12 +131,13 @@ h1.logo a {
 }
 
 h1 {
+    font-family: 'FonteLogo';
     text-align: center; 
     font-weight: bold; 
     color: #890a08; 
     font-size: 2em; 
-    margin-bottom: 66px; 
-    margin-top: 66px;
+    margin-bottom: 42px; 
+    margin-top: 42px;
 }
  
 a.menu_mobile {
@@ -165,6 +169,8 @@ a.menu_mobile:focus {
 
 #menu {
     margin-top: 20px;
+    font-family: 'FonteLogo';
+    
 }
 
 #menu ul {
@@ -220,6 +226,18 @@ a.menu_mobile:focus {
 .estudos ul {
     margin-left: 6px;
     list-style: none;
+}
+
+.tit-img {
+    font-weight: bold;
+    font-family: 'FonteLogo';
+}
+
+.tit-img span {
+    float: right;
+    font-style: italic;
+    font-size: 0.6em;
+    font-weight: bold;
 }
 
 .estudos article {
