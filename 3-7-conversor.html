@@ -12,34 +12,30 @@
     <link rel="shortcut icon" href="img/mlsicon.ico">
 </head>
 <body id="home">
- 
 <div class="conteudo">
- 
 <header>
     <a href="index.html"><img id="icone" src="img/menu.png"></a>     
     <a class="menu_mobile" href="#menu">Menu</a>
- </header>
+</header>
 
-   <p></p>
 <article>
-    <p></p>
     <p>Se quiser, baixe esse app ¬ <a href="https://github.com/mlssystem/algoritmo/tree/master/VisuAlg-App">Visualg</a>, copie o código, cole, teste, altere, treine, seja feliz! Sorria! Mesmo, se o mudo fizer careta (RS!).</p>
-    <div class="exercicio">
+<div class="exercicio">
     <h2>Exercícios</h2>    
-    </div>
-    <div class="codigo">
+</div>
+<div class="codigo">
 <h2>algoritmo "Conversor"</h2>
 <!--// Função : Convertendo
 // Autor :
 // Data : 07/11/2016
 // Seção de Declarações -->
 <h2>var</h2>
-<div style="margin-left: 42px;">
+<div class="identecao">
 Angulo , S: Real
 </div>
 <hr>
 <h2>inicio</h2>
-<div style="margin-left: 42px;">
+<div class="identecao">
 Escreva ("Informe seu Angulo: ")
 <br>
 leia (angulo)
@@ -50,7 +46,212 @@ Escreval ("O Seno de", angulo, " e igual a", S)
 </div>
 <hr>
 <h2>fimalgoritmo</h2>
-    
+</div>    
+</article>
+
+<article>
+<div class="codigo">    
+    <h2>algoritmo "Conversor de dados com oções"</h2>
+<!--//Função:
+//Autor:
+//Data:
+//Seção:-->
+<h2>var</h2>
+<div class="identecao"> 
+  kb, mb, gb: real
+<br>
+  opc: inteiro  
+</div>
+<hr>
+<h2>inicio</h2>
+<div class="identecao">
+   Repita
+</div>
+<div class="identecao">
+      EscrevaL("===============================")
+<br>
+      EscrevaL("O resutado aparecerá na parte superior!")
+<br>
+      EscrevaL("ESCOLHA UMA DAS OPÇÃO ABAIXO")
+<br>
+      EscrevaL("===============================")
+<br>
+      EscrevaL(" Kbyte em Mbyte opção [1]")
+<br>
+      Escreval("_______________________________")
+<br>
+      EscrevaL
+<br>
+      Escreval(" Kbyte em Gbyte opção [2]")
+<br>
+      Escreval("_______________________________")
+<br>
+      EscrevaL
+<br>
+      EscrevaL(" Mbyte em Kbyte opção [3]")
+<br>
+      Escreval("_______________________________")
+<br>
+      EscrevaL
+<br>
+      EscrevaL(" Mbyte em Gbyte opção [4]")
+<br>
+      Escreval("_______________________________")
+<br>
+      EscrevaL
+<br>
+      Escreval(" Gbyte em Kbyte opção [5]")
+<br>
+      Escreval("_______________________________")
+<br>
+      EscrevaL
+<br>
+      EscrevaL(" Gbyte em Mbyte opção [6]")
+<br>
+      Escreval("_______________________________")
+<br>
+      EscrevaL
+<br>
+      Escreval(" Para sair digite a opção [7]")
+<br>
+      Escreval("_______________________________")
+<br>
+      Leia (opc)
+<br>
+      LimpaTela
+<br>
+      Escolha (opc)
+<div class="identecao">
+        caso 1  
+<div class="identecao">
+
+            Escreval("--------------------------------")
+<br>
+            EscrevaL("Convertendo Kilobyte em Megabyte")
+<br>
+            Escreval("--------------------------------")
+<br>
+            Escreva("Informe a quantidade de KB: ")
+<br>
+            Leia (kb)
+<br>
+            mb <- (kb/1000)
+<br>
+            EscrevaL(kb," KB = ", mb," MB")
+</div>
+        caso 2    
+<div class="identecao">
+            Escreval("--------------------------------")
+<br>
+            Escreval("Convertendo Kilobyte em Gigabyte")
+<br>
+            Escreval("---------------------------------")
+<br>
+            Escreva("Informe a quantidade em KB: ")
+<br>
+            Leia (kb)
+<br>
+            gb <- (kb/1000000)
+<br>
+            EscrevaL(kb," KB = ", gb," GB")
+</div>
+        caso 3
+<div class="identecao">
+
+            Escreval("--------------------------------")
+<br>
+            EscrevaL("Convertendo Megabyte em Kilobyte")
+<br>
+            Escreval("--------------------------------")
+<br>
+            Escreva("Informe a quantidade de MB ")
+<br>
+            Leia (mb)
+<br>
+            kb <- (mb*1000)
+<br>
+            EscrevaL(mb," MB = ", kb," KB")
+</div>
+        caso 4  
+<div class="identecao">
+
+            Escreval("--------------------------------")
+<br>
+            EscrevaL("Convertendo Megabyte em Gigabyte")
+<br>
+            Escreval("--------------------------------")
+<br>
+            Escreva("Informe a quantidade de MB: ")
+<br>
+            Leia (mb)
+<br>
+            gb <- (mb/1000)
+<br>
+            EscrevaL(mb," MB = ", gb," GB")
+</div>
+        caso 5    
+<div class="identecao">
+
+            Escreval("--------------------------------")
+<br>
+            Escreval("Convertendo Gigabyte em Kilobyte")
+<br>
+            Escreval("--------------------------------")
+<br>
+            Escreva("Informe a quantidade em GB: ")
+<br>
+            Leia (gb)
+<br>
+            kb <- (gb*1000000)
+<br>
+            EscrevaL(gb," GB = ", kb," KB")
+</div>
+        caso 6  
+<div class="identecao">
+
+            Escreval("---------------------------------")
+<br>
+            EscrevaL("Convertendo Gigabyte em Megabyte")
+<br>
+            Escreval("---------------------------------")
+<br>
+            Escreva("Informe a quantidade em GB: ")
+<br>
+            Leia (gb)
+<br>
+            mb <- (gb*1000)
+<br>
+            EscrevaL(gb," GB = ", mb," MB")             
+</div>
+        caso 7
+<div class="identecao">
+
+            EscrevaL ("THE END >_ by mlssystem")   
+</div>
+    FimEscolha
+<br>
+    Ate (opc = 7)
+</div>
+
+<h2>fimalgoritmo</h2>
+</div>
+
+</article>
+
+<article>
+  <div class="alg-list">
+    <p>Mais exercícios de <span class="alg-tit-span">&#34;Comando de Entrada e Operadores&#34;.</span></p>
+        <ul class="alg-list">
+            <li><a href="3-0-meu-nome.html"><span>Meu Nome</span></a></li>
+            <li><a href="3-1-soma-valores.html"><span>Soma de Valores</span></a></li>
+            <li><a href="3-2-media-valores.html"><span>Média de Valores</span></a></li>
+            <li><a href="3-3-exponenciacao.html"><span>Exponenciação</span></a></li>
+            <li><a href="3-4-raizQ.html"><span>RaizQ</span></a></li>
+            <li><a href="3-5-numero-inteiro-da-raizQ.html"><span>Número inteiro da RaizQ</span></a></li>
+            <li><a href="3-6-graus-para-radiano.html"><span>Graus para Radiano</span></a></li>
+            <li><a class="ativo" href="3-7-conversor.html"><span>Conversor</span></a></li>
+        </ul>
+  </div>       
 </article>
 
     <nav id="menu">         
