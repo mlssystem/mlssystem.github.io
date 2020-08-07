@@ -44,20 +44,7 @@ q:before, q:after {
     content: none;
 }
  
-/* remember to highlight inserts somehow! */
-ins {
-    text-decoration: none;
-}
-del {
-    text-decoration: line-through;
-}
- 
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-/*begin our styles*/
+/*####### INICIANDO #########*/
  
 body {
     font: 16px/1.4em 'PT Sans', sans-serif;;
@@ -76,46 +63,6 @@ ul {
  
 a {
     color: #1D745A;
-}
- 
-h2 {
-    font-family: 'FonteLogo';
-    font-size: 32px;
-    line-height: 1.4em;
-    margin: 0 0 .4em;
-    font-weight: bold;
-}
- 
-/*layout*/
- 
-article {
-    border-bottom: 1px solid #d8d8d8;
-    padding: 10px 20px 0 20px;
-    margin: 10px 0;
-    text-align: justify;
-}
- 
-/*header*/
- 
-header {
-    background: #1c1c1c;
-    padding: 15px 20px;
-}
-
-/*shorter clearfix nicolasgallagher.com/micro-clearfix-hack/*/
-header:before,
-header:after {
-    content:"";
-    display:table;
-}
- 
-header:after {
-    clear:both;
-}
- 
-/* For IE 6/7 (trigger hasLayout) */
-header {
-    zoom:1;
 }
 
 h1.logo a {
@@ -139,7 +86,52 @@ h1 {
     margin-bottom: 42px; 
     margin-top: 42px;
 }
+
+h2 {
+    font-family: 'FonteLogo';
+    font-size: 32px;
+    line-height: 1.4em;
+    margin: 0 0 .4em;
+    font-weight: bold;
+}
  
+/*######### LAYOUT ##########*/
+ 
+article {
+    border-bottom: 1px solid #d8d8d8;
+    padding: 10px 20px 0 20px;
+    margin: 10px 0;
+    text-align: justify;
+}
+/*######### CABEÇALHO ##############*/ 
+
+ 
+header {
+    background: #1c1c1c;
+    padding: 15px 20px;
+}
+ 
+header:after {
+    clear:both;
+}
+ 
+/* For IE 6/7 (trigger hasLayout) */
+header {
+    zoom:1;
+}
+ 
+nav li a.ativo {
+    background: rgb(156, 156, 156);
+}
+
+/*######### ANCORA ############*/ 
+
+a.menu_mobile:hover,
+a.menu_mobile:focus {
+    color: #1c1c1c;
+    background: #ccc;
+}
+
 a.menu_mobile {
     float: right;
     color: #fff;
@@ -156,17 +148,9 @@ a.menu_mobile {
     -moz-border-radius: 2px;
     border-radius: 2px;
 }
+
+/*########### MENU ############*/ 
  
-nav li a.ativo {
-    background: rgb(156, 156, 156);
-}
-
-a.menu_mobile:hover,
-a.menu_mobile:focus {
-    color: #1c1c1c;
-    background: #ccc;
-}
-
 #menu {
     margin-top: 20px;
     font-family: 'FonteLogo';
@@ -203,14 +187,7 @@ a.menu_mobile:focus {
     background: #ccc;
 }
 
-.exercicio {
-    text-align: center;
-    margin-bottom: 42px;
-}
-
-.codigo {
-    background: #f1eded;
-}
+/*######## ESTUDOS ##########*/
 
 .estudos {
     background: #e7e9e7;
@@ -232,14 +209,6 @@ a.menu_mobile:focus {
     font-weight: bold;
     font-family: 'FonteLogo';
 }
-
-.tit-img span {
-    float: right;
-    font-style: italic;
-    font-size: 0.6em;
-    font-weight: bold;
-}
-
 .estudos article {
     border-bottom: 1px solid #b0b0b0;
 }
@@ -271,7 +240,50 @@ a.menu_mobile:focus {
     background: url("../img/linux.png") no-repeat 95% 95%;
 }
 
-/*footer*/
+/*########## ALGORITMO ###########*/
+
+.tit-img span {
+    float: right;
+    font-style: italic;
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
+.exercicio {
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+.codigo {
+    background: #f1eded;
+    padding: 10px;
+    margin-top: -10px;
+    margin-bottom: 17px;
+}
+
+.identecao {
+    margin-left: 20px;
+}
+
+.alg-list {
+    text-align: center;
+}
+
+.alg-list ul {
+    text-align: center;
+    list-style: none;
+    font-weight: normal;
+}
+
+.alg-tit-span {
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.alg-list a.ativo {
+    color: red;
+}
+/*########## FOOTER #########*/
  
 footer {
     font-family: 'PT Serif', serif;
@@ -279,6 +291,8 @@ footer {
     font-size: 14px;
     text-align: center;
 }
+
+/*######### MEDIA ###########*/
 
 @media only screen and (min-width: 768px) {
  

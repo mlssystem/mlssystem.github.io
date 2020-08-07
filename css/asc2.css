@@ -1,0 +1,89 @@
+/*PESQUISA*/
+    .input-search{
+        border:1px solid #CCC;
+        padding:5px 14px;
+        font-size:12px;
+        margin:10px 0;
+        float:left;
+        
+        -webkit-border-radius:15px;
+           -moz-border-radius:15px;
+            -ms-border-radius:15px;
+             -o-border-radius:15px;
+                border-radius:15px;
+    }
+    .input-search::-webkit-input-placeholder{ 
+        font-style:italic 
+    }
+    
+    .input-search:-moz-placeholder { 
+        font-style:italic 
+    }
+    
+    .input-search:-ms-input-placeholder { 
+        font-style:italic 
+    }
+
+    .destacado { 
+        background-color: #fff241;
+    }    
+
+/*##### ALTERNANDO PESQUISA E BUSCA #####*/
+    .alt {
+        visibility: hidden;
+    }
+
+    .digite {
+        font-weight: #000000;
+        font-style: italic;
+        padding-bottom: 2px;
+        font-size: 0.9em;
+    }
+
+table {  
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #e7cc71;
+    text-align: center;
+    width: 100%;
+}
+
+td, th {
+    border-top: 1px solid #e7cc71;
+    border-right: 1px solid #e7cc71;
+    padding: 4px 8px;
+}
+
+tbody tr:nth-child(even) td {
+    background-color: #eee;
+}
+
+@media screen and (max-width: 640px) {
+table {width:100%;}
+thead {display: none;}
+/*tr td:first-child {font-weight:bold;font-size:1.3em;}*/
+tbody td {display: block;  text-align:center;}
+tbody td:before { 
+    content: attr(data-th); 
+    display: block;
+    text-align:center;  
+  }
+}
+
+@media screen and (max-width: 480px) {
+    .alt{
+        visibility: visible;
+    }           
+}
+
+@media screen and (max-width: 660px) {
+    .alt{
+        visibility: visible;
+    }
+    .busca {
+        visibility: hidden;
+    }
+    .digite {
+        visibility: hidden;
+    }                
+}
