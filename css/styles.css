@@ -24,6 +24,7 @@ time, mark, audio, video {
     vertical-align: baseline;
     text-decoration: none;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -108,7 +109,7 @@ article {
  
 header {
     background: #1c1c1c;
-    padding: 15px 20px;
+    padding: 5px 10px;
 }
  
 header:after {
@@ -120,12 +121,19 @@ header {
     zoom:1;
 }
  
-nav li a.ativo {
-    background: rgb(156, 156, 156);
-}
-
 /*######### ANCORA ############*/ 
 
+nav li a.ativo {
+    background: #ccc;
+}
+
+nav li a#ativo {
+    color: #000;
+}
+
+a.vazio {
+    opacity: 0.3;
+}
 a.menu_mobile:hover,
 a.menu_mobile:focus {
     color: #1c1c1c;
@@ -152,15 +160,14 @@ a.menu_mobile {
 /*########### MENU ############*/ 
  
 #menu {
-    margin-top: 20px;
+    margin-top: 37px;
     font-family: 'FonteLogo';
-    
 }
 
 #menu ul {
     list-style: none;
     background: #1c1c1c;
-    padding: 5px 0;
+    padding: 12px 0px;
 }
  
 #menu li a {
@@ -185,6 +192,45 @@ a.menu_mobile {
 #menu li a:focus {
     color: #1c1c1c;
     background: #ccc;
+}
+
+/*###### MARQUEE ######*/
+
+#marquee-1 {
+    margin: 1px 100px 1px; 
+    line-height: 3em;
+}
+
+#marquee-2 a {
+    color: orange;
+}
+
+#marquee-3 a {
+    color: red;
+}
+
+#marquee-4 {
+    font-weight: bold
+}
+
+#marquee-5 {
+    color: green;
+}
+
+#marquee-7 {
+    color: blue; 
+    float: right;
+    padding: 10px;
+}
+
+#marquee-8 {
+    color: yellow;
+}
+
+#marquee-10 {
+    color: purple; 
+    margin: 1px 0px 0px 150px; 
+    padding: 10px;
 }
 
 /*######## ESTUDOS ##########*/
@@ -333,5 +379,10 @@ footer {
     .servico .album-fotos {
         width: 100%; 
         margin: auto;
+    }
+}
+@media screen and (min-width: 680px) {
+    .cetral {
+    margin-left: 150px;
     }
 }
