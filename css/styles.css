@@ -49,7 +49,7 @@ q:before, q:after {
  
 body {
     font: 16px/1.4em 'PT Sans', sans-serif;;
-    color: #1c1c1c;
+    color: #000;
 }
  
 p,
@@ -108,7 +108,7 @@ article {
 
  
 header {
-    background: #1c1c1c;
+    background: #000;
     padding: 6px 10px;
 }
  
@@ -136,7 +136,7 @@ a.vazio {
 }
 a.menu_mobile:hover,
 a.menu_mobile:focus {
-    color: #1c1c1c;
+    color: #000;
     background: #ccc;
 }
 
@@ -166,7 +166,7 @@ a.menu_mobile {
 
 #menu ul {
     list-style: none;
-    background: #1c1c1c;
+    background: #000;
     padding: 12px 0px;
 }
  
@@ -190,7 +190,7 @@ a.menu_mobile {
  
 #menu li a:hover,
 #menu li a:focus {
-    color: #1c1c1c;
+    color: #000;
     background: #ccc;
 }
 
