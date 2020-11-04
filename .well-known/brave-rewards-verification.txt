@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: mlssystem.github.io
+Token: aa32fe76d253abe8a6b8968b2f1546fe0a613d90e2890ad155afa36a4ea7ab3c
