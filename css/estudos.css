@@ -1,0 +1,151 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../fonts/bubblegum-sans-regular.otf");
+}
+
+/*######### LAYOUT ##########*/
+ 
+article {
+    border-bottom: 1px solid #d8d8d8;
+    padding: 10px 20px 0 20px;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+
+/*###### MARQUEE ######*/
+
+#marquee-1 {
+    margin: 1px 100px 1px; 
+    line-height: 3em;
+}
+
+#marquee-2 a {
+    color: orange;
+}
+
+#marquee-3 a {
+    color: red;
+}
+
+#marquee-4 {
+    font-weight: bold
+}
+
+#marquee-5 {
+    color: green;
+}
+
+#marquee-7 {
+    color: blue; 
+    float: right;
+    padding: 10px;
+}
+
+#marquee-8 {
+    color: yellow;
+}
+
+#marquee-10 {
+    color: purple; 
+    margin: 1px 0px 0px 150px; 
+    padding: 10px;
+}
+
+/*######## ESTUDOS ##########*/
+
+.estudos {
+    background: #e7e9e7;
+} 
+.estudos a {
+    color:#000000;
+}
+
+.estudos h2 {
+    color:#000000;
+
+}
+.estudos ul {
+    margin-left: 6px;
+    list-style: none;
+}
+
+.tit-img {
+    font-weight: bold;
+    font-family: 'FonteLogo';
+}
+.estudos article {
+    border-bottom: 1px solid #b0b0b0;
+}
+.alg {
+    background: url("../img/algoritmo.png") no-repeat 95% 95%;
+}
+
+.htm {
+    background: url("../img/html.png") no-repeat 95% 95%;
+}
+
+.css {
+    background: url("../img/css.png") no-repeat 95% 95%;
+}
+
+.js {
+    background: url("../img/javascript.png") no-repeat 95% 95%;
+}    
+
+.php {
+    background: url("../img/php.png") no-repeat 95% 95%;
+}
+
+.jav {
+    background: url("../img/java.png") no-repeat 95% 95%;
+}
+
+.lin {
+    background: url("../img/linux.png") no-repeat 95% 95%;
+}
+
+/*########## ALGORITMO ###########*/
+
+.tit-img span {
+    float: right;
+    font-style: italic;
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
+.exercicio {
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+.codigo {
+    background: #f1eded;
+    padding: 10px;
+    margin-top: -10px;
+    margin-bottom: 17px;
+}
+
+.identecao {
+    margin-left: 20px;
+}
+
+.alg-list {
+    text-align: center;
+}
+
+.alg-list ul {
+    text-align: center;
+    list-style: none;
+    font-weight: normal;
+}
+
+.alg-tit-span {
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.alg-list a.ativo {
+    color: red;
+}

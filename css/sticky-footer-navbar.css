@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../fonts/bubblegum-sans-regular.otf");
+}
+
+#mls {
+    font-family: 'FonteLogo';
+}
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+#iniciando {
+	margin-top: 50px;
+}
+
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+
+.blog-footer a {
+  color: #112;
+  font-family: FonteLogo;
+}
+
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+code {
+  font-size: 80%;
+}
+
+#marquee-1 {
+    margin: 1px 100px 1px; 
+    line-height: 3em;
+}
+
+#marquee-2 a {
+    color: orange;
+}
+
+#marquee-3 a {
+    color: red;
+}
+
+#marquee-4 {
+    font-weight: bold
+}
+
+#marquee-5 {
+    color: green;
+}
+
+#marquee-7 {
+    color: blue; 
+    float: right;
+    padding: 10px;
+}
+
+#marquee-8 {
+    color: yellow;
+}
+
+#marquee-10 {
+    color: purple; 
+    margin: 1px 0px 0px 150px; 
+    padding: 10px;
+}
+

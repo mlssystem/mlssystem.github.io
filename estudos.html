@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="h-100">
 <head>
     <meta charset="utf-8">
     <title>Estudos</title>
@@ -8,15 +8,92 @@
     <meta name="author" content="Marcus">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="robots" content="index, follow">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="shortcut icon" href="img/mlsicon.ico">
+    <link href="css/bootstrap.css" rel="stylesheet">    
+    <link rel="shortcut icon" href="img/mlsicon.ico">    
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estudos.css">
+    <style>
+    .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none; 
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    } 
+
+    table {
+        width: 100%;
+    }
+
+    thead {
+        text-align: center;
+        background-color: #000;
+        color: #fff;
+    }
+
+    tr:nth-child(even) {
+        background-color: #eee;
+    }
+
+    table, td {         
+        border: .5px solid rgba(0,0,0,0.5);
+    }
+
+    th, td {
+        font-size: 1.2em;
+        padding: 8px;
+        text-align: center;            
+    }
+
+    @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+         font-size: 3.5rem;
+        }
+    }
+    </style>	    
 </head>
-<body id="home">
-<div class="conteudo">
-<header>
-    <a href="index.html"><img id="icone" src="img/menu.png"></a>
-    <a class="menu_mobile" href="#menu">Menu</a>
-</header>
+  <body class="d-flex flex-column h-100">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#"><img id="icone" src="img/menu.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> 
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+            <a class="nav-link" href="https://mlssystem.github.io">Home <span class="sr-only">(current)</span></a>
+            </li>            
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Estudos</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Programação</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="https://mlssystem.github.io/algoritmo">Algoritmo</a>
+              <a class="dropdown-item" href="https://mlssystem.github.io/html">HTML</a>
+              <a class="dropdown-item" href="#">CSS</a>
+              <a class="dropdown-item" href="#">PHP</a>
+              <a class="dropdown-item" href="#">JAVA</a>
+            </div>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link" href="https://mlssystem.github.io/bitblockdig" target="_blank">BitBlockDig</a>
+            </li>             
+            <li class="nav-item">
+              <a class="nav-link" href="https://bibliasagrada.github.io" target="_blank" >Bíblia</a>
+            </li>  
+        </ul>
+        <!--<form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Pesquisar</button>
+        </form>-->
+      </div>
+    </nav>
+<main role="main" class="flex-shrink-0">
+  <div class="container">
+        <p id="iniciando"></p>
 <article>
 	<p></p>
 	<p>Quando me interessei por tecnologia!</p>
@@ -34,11 +111,11 @@
 		<li>Segurança</li>
 	</ul>
 	<p>E cada seguimento, diversas ramificações! </p>
-	<p>Depois de algumas pesquisas... me convenci que para ser um desenvolvedor tanto para web como para server. Bom seria começar estudando Algoritmo, posteriormente o basico para web seria estudar; HTML que por sua vez interage com CSS, Java Script, e PHP.</p> 
+	<p>Depois de algumas pesquisas... Aprendi que para ser um desenvolvedor tanto para web como para server. Bom seria começar estudando Algoritmo, posteriormente o basico para web; HTML, CSS, Java Script, e PHP.</p>
 	<p>Ja que é para estudar. Vamos conhecer as linguagens de marcação, e de programação tambem!</p>
 	<p>Pensando assim! Para 'back-end' escolhi PHP para interagir com a web, e Java, pois além de ser multplataforma é uma linguagem sólida, popular e está em constante desenvolvimento.</p>
-	<p>Acho inetressante ter conhecimento em mais de um Sistema Operacional, e por isso ecolhi Linux, me indentifico com a ideia de que todos possam ter acesso a um Sistema Operacional sem ter que pagar por ele, além de ser código aberto, ter várias distros, uma comunidade ativa, e totalmente disposta a ajudar os iniciante através das inúmeras paginas web desenvolvidas na sua maioria em HTML.</p>
-	<p>Durante algumas pesquisas, e vídeo aulas, conheci os sites abaixo, e por isso usarei para estudar.</p>
+	<p>Acho inetressante ter conhecimento em mais de um Sistema Operacional, e por isso ecolhi Linux, me indentifico com a ideia de que todos possam ter acesso a um Sistema Operacional sem ter que pagar por ele, além de ser código aberto, ter várias distros, também tem uma comunidade 100% ativa, e totalmente disposta a ajudar os iniciante através.</p>
+	<p>Durante algumas pesquisas, e vídeo aulas, conheci os sites abaixo, e por isso uso como base para estudos e pesquisas.</p>
 </article>
 <div class="estudos">
 <article>
@@ -47,7 +124,7 @@
 			<p></p>
 			<li><a href="https://www.cursoemvideo.com/" target="_blank">Curso em Vídeo</a></li>
 			<li><a href="http://dev.rbtech.info/curso-logica-programacao-aula-01/" target="_blank">RBTech</a></li>
-			<li><a href="https://www.ev.org.br/curso/informatica/desenvolvimento-de-sistemas/fundamentos-de-logica-de-programacao?return=/cursos/informatica&cst=495" target="_blank">Fundação Bradesco</a></li>
+			<li><a href="https://www.ev.org.br" target="_blank">Fundação Bradesco</a></li>
 		</ul>
 		<p></p>
 </article>
@@ -62,7 +139,7 @@
 			<li><a href="https://www.cursoemvideo.com/" target="_blank">Curso em Vídeo</a></li>
 			<li><a href="http://dev.rbtech.info/curso-html-css-iniciantes-aula-1/" target="_blank">RBTech</a></li>
 			<li><a href="https://developer.mozilla.org/pt-BR/docs/Web/html" target="_blank">MDN</a></li>
-			<li><a href="https://www.ev.org.br/curso/informatica/desenvolvimento-web/html-basico?return=/cursos/informatica&cst=351" target="_blank">Fundação Bradesco</a></li>
+			<li><a href="https://www.ev.org.br" target="_blank">Fundação Bradesco</a></li>
 			<li><a href="https://www.codecademy.com/learn/learn-html" target="_blank">CodeCademy</a></li>
 			<li><a href="https://www.portalgsti.com.br/html/cursos/" target="_blank">GSTI</a></li>
 		</ul>
@@ -78,7 +155,7 @@
 			<li><a href="http://www.w3c.br/Cursos/CursoCSS3" target="_blank">W3C</a></li>
 			<li><a href="http://dev.rbtech.info/curso-html-css-iniciantes-aula-1/" target="_blank">RBTech</a></li>
 			<li><a href="https://developer.mozilla.org/pt-BR/docs/Aprender/CSS">MDN</a></li>
-			<li><a href="https://www.ev.org.br/curso/informatica/desenvolvimento-web/inovando-com-css?return=/cursos/informatica/desenvolvimento-web&cst=296" target="_blank">Fundação Bradesco</a></li>
+			<li><a href="https://www.ev.org.br" target="_blank">Fundação Bradesco</a></li>
 			<li><a href="http://cfbcursos.com.br/curso-de-css3/" target="_blank">CFB</a></li>
 			<li><a href="https://www.codecademy.com" target="_blank">CodeCademy</a></li>
 			<li><a href="https://www.portalgsti.com.br/css/cursos/" target="_blank">GSTI</a></li>
@@ -93,7 +170,7 @@
 			<li><a href="https://https://tableless.com.br/categories/javascript" target="_blank">Tableless</a></li>
 			<li><a href="http://dev.rbtech.info/javascript-essencial-conceitos-iniciais/" target="_blank">RBTech</a></li>
 			<li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">MDN</a></li>
-			<li><a href="https://www.ev.org.br/curso/informatica/desenvolvimento-web/introducao-ao-javascript?return=/cursos/informatica/desenvolvimento-web&cst=536" target="_blank">Fundação Bradesco</a></li>
+			<li><a href="https://www.ev.org.br" target="_blank">Fundação Bradesco</a></li>
 			<li><a href="http://cfbcursos.com.br/javascript-01-aprenda-javascript-introducao/" target="_blank">CFB</a></li>
 			<li><a href="aulaead.thinkific.com/courses/curso-gratis-javascript" target="_blank">Aula EAD</a></li>
 			<li><a href="https://www.codecademy.com" target="_blank">CodeCademy</a></li>
@@ -143,20 +220,56 @@
 </article>
 
 </div>
+</div>
+</main>
+</div>
 
-    <nav id="menu">         
-        <ul>             
-            <li><a href="index.html">Home</a></li>             
-            <li><a id="ativo" class="ativo" href="estudos.html">Estudos</a></li>                     
-            <li><a target="_blank" href="https://bibliasagrada.github.io">Bíblia</a></li>             
-            <li class="top"><a href="#home">Top</a></li>             
-        </ul> 
-    </nav>
+<footer class="container py-5">
+  <div class="row">
+    <div class="col-12 col-md">
+      <img src="img/30.png" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"/>
+      <small class="d-block mb-3 text-muted">Copyright &copy;2020 - Marcus LS</small>
+    </div>
+    <div class="col-6 col-md">
+    <h5> Programação </h5>
+      <ul class = "list-unstyled text-small">
+        <li> <a class="text-muted" href="https://mlssystem.github.io/estudos.html">Estudos</a> </li>
+        <li> <a class="text-muted" href="https://mlssystem.github.io/algoritmo">Algoritmo</a> </li>
+        <li> <a class="text-muted" href="https://mlssystem.github.io/html">HTML</a> </li>
+        <li> <a class="text-muted" href="#"> CSS </a> </li>
+        <li> <a class="text-muted" href="#"> PHP </a> </li>
+        <li> <a class="text-muted" href="#"> JAVA </a> </li>
+      </ul>
+    </div>
+    <div class = "col-6 col-md">
+      <h5> BitBlockDig </h5>
+      <ul class = "list-unstyled text-small">
+        <li> <a class="text-muted" href="https://mlssystem.github.io/bitblockdig/index.html" target="_blank"> BBD </a> </li>
+        <li> <a class="text-muted" href="https://mlssystem.github.io/bitblockdig/criptomoedas.html" target="_blank"> Criptomoedas </a> </li>
+        <li> <a class="text-muted" href="https://mlssystem.github.io/bitblockdig/bitcoin.html" target="_blank"> Bitcoin </a> </li>
+        <li> <a class="text-muted" href="https://mlssystem.github.io/bitblockdig/ethereum.html" target="_blank"> Ethereum </a> </li>
+        <li> <a class="text-muted" href="https://mlssystem.github.io/bitblockdig/litecoin.html" target="_blank"> Litecoin </a> </li>
+      </ul>
+    </div>
+    <div class = "col-6 col-md">
+      <h5> Links </h5>
+      <ul class = "list-unstyled text-small">
+        <li> <a class="text-muted" href="https://bibliasagrada.github.io" target="_blank" >Bíblia</a> </li>
+        <li> <a class="text-muted" href="https://mlssystem.github.io/trabalhadoresdaseara/biblia-sagrada" target="_blank"> Trabalhadores da Seara </a> </li>
+      </ul>
+    </div>
+    <div class = "col-6 col-md">
+      <h5> Sobre </h5>
+      <ul class = "list-unstyled text-small">
+        <li> <a class="text-muted" href="#"> Privacidade </a> </li>
+        <li> <a class="text-muted" href="#"> Termos </a> </li>
+      </ul>
+    </div>
+  </div>
+</footer>
 
-    <div class="footer">     
-    <footer>
-        <p>Copyright &copy;2020 <a href="https://github.com/mlssystem">MLSSystem</a></p>
-    </footer>
-   </div>
-</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</body>      
 </html>
