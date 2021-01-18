@@ -4,8 +4,16 @@
     src: url("../fonts/bubblegum-sans-regular.otf");
 }
 
+footer {
+  /*background-color: #000 !important;*/
+  background-image: url("../img/bg.jpg");  
+  color: #fff;
+  width: 100%;
+  padding: 3%;
+}
+
 #mls {
-    font-family: 'FonteLogo';
+  font-family: 'FonteLogo';
 }
 
 main > .container {
@@ -13,10 +21,10 @@ main > .container {
 }
 
 #iniciando {
-	margin-top: 50px;
+	margin-top: 80px;
 }
 
-.blog-footer {
+/*.blog-footer {
   padding: 2.5rem 0;
   color: #999;
   text-align: center;
@@ -31,10 +39,49 @@ main > .container {
 
 .blog-footer p:last-child {
   margin-bottom: 0;
-}
+}*/
 
 code {
   font-size: 80%;
+}
+
+#marquee-title p {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 3px black;
+}
+
+#marquee-title-h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 3px black;
+}
+
+#marquee-contra-mao {
+  text-indent: 5%;
+}
+
+#marquee-subindo {
+  text-indent: 10%;
+}
+
+#marquee-subindo marquee{
+  padding: 20px;
+}
+
+#marquee-descendo {
+  text-indent: 15%;
+}
+
+#marquee-descendo marquee{
+  padding: 20px;
+}
+
+#marquee-esquerda {
+  text-indent: 20%;
 }
 
 #marquee-1 {
