@@ -1,7 +1,7 @@
 ![](https://github.com/mlssystem/mlssystem.github.io/blob/master/img/menu.png) [mlssystem.github.io](https://mlssystem.github.io)
 
 ## Conteúdo de pesquisas para estudo!   
-Update 26-12-20
+Update 22-01-21
 
 Colocando em prática o aprendizado.
 
